@@ -1,0 +1,29 @@
+name: Validate and package RoohKeSur skill
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Validate and package the instruction-only skill
+        run: python3 scripts/validate_and_package_skill.py
+      - name: Upload install bundle
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: roohkesur-studio
+          path: dist/roohkesur-studio.zip
+          if-no-files-found: error
+          retention-days: 14

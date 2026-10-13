@@ -1,0 +1,7 @@
+interface:
+  display_name: "RoohKeSur Studio"
+  short_description: "Cloud poetry songs, paired videos and artwork"
+  default_prompt: "Use $roohkesur-studio to turn my poem or recording into a complete cloud production package."
+
+policy:
+  allow_implicit_invocation: true
