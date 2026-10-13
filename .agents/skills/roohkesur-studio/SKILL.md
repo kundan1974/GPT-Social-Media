@@ -13,6 +13,7 @@ Create complete, reviewable poetry productions in the GPT-Social-Media cloud env
 - A supplied finished song: use that same reference to create both video versions. Do not generate or substitute a new soundtrack.
 - A poetry image/poster request: read [Poetry artwork](references/poetry-artwork.md).
 - A creator recording: read [Recitation production](references/recitation-production.md).
+- For recitation revisions and finalization, also apply [Production lessons](references/production-lessons.md).
 - Before an external production operation or delivery: read the relevant sections of [Cloud tools and delivery](references/cloud-tools-and-delivery.md). Load other references only when they apply.
 
 ## Established defaults
