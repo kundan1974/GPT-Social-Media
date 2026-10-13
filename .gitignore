@@ -1,0 +1,18 @@
+# Production media and private working state
+private/
+production/
+outputs/
+work/
+dist/
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a
+*.psd
+*.aep
+*.prproj
+__pycache__/

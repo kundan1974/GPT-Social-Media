@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "brand": "RoohKeSur",
+  "cloud_environment": "GPT-Social-Media",
+  "mode": null,
+  "status": "input_received",
+  "source": {
+    "poem_asset_id": null,
+    "poem_version": null,
+    "author": null,
+    "locked": true,
+    "selected_exact_lines": []
+  },
+  "audio": {
+    "asset_id": null,
+    "version": null,
+    "duration_seconds": null,
+    "source_type": null,
+    "rights_status": "unverified",
+    "poem_discrepancies": [],
+    "social_excerpt": {
+      "in_seconds": null,
+      "out_seconds": null
+    }
+  },
+  "requested_outputs": {
+    "social": {
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 30
+    },
+    "youtube": {
+      "width": 1920,
+      "height": 1080,
+      "target_min_seconds": 120,
+      "target_max_seconds": 240,
+      "actual_duration_seconds": null
+    },
+    "artwork": {
+      "line_count_min": 4,
+      "line_count_max": 6,
+      "instagram": {
+        "width": 1080,
+        "height": 1350
+      },
+      "youtube_community": {
+        "width": 1080,
+        "height": 1080
+      }
+    }
+  },
+  "budget": {
+    "provider_credit_ceilings": {},
+    "currency": null,
+    "monetary_ceiling": null,
+    "spent_by_provider": {}
+  },
+  "capabilities": [],
+  "selected_references": [],
+  "provider_jobs": [],
+  "outputs": [],
+  "quality_review": {
+    "text_verified": false,
+    "visuals_verified": false,
+    "full_audio_verified": false,
+    "full_video_verified": false,
+    "durable_storage_verified": false,
+    "review_notes": []
+  },
+  "notification": {
+    "channel": null,
+    "event_id": null,
+    "status": "not_configured"
+  },
+  "user_review": {
+    "status": "pending",
+    "notes": []
+  },
+  "publication": {
+    "status": "not_published",
+    "post_urls": []
+  }
+}
