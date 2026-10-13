@@ -34,4 +34,6 @@ Listen to complete audio; view the complete exported video. Check the poem again
 
 Deliver the requested versions, covers, caption.txt, MUSIC.md, UPLOAD-PACKAGE.md, original/clean sources and supported editable/rebuild material in private cloud storage. A generation job or displayed preview is not proof of final export or playback review.
 
+After trimming an excerpt or adding still holds, trim picture and sound to the same source interval and reset both timestamps before padding or delaying. Establish a constant video frame rate before frame-duration padding. Verify audio and picture content against the synchronized source at multiple speaking points; matching container durations alone does not establish lip sync. When adding supplied background music, preserve the accepted video stream and confirm that mixing introduced no voice delay.
+
 Adobe's supported transcription-language list included Hindi and did not list Urdu when checked on 13 October 2026. Refresh the [current list](https://helpx.adobe.com/premiere/desktop/add-text-images/insert-captions/languages-supported-by-speech-to-text.html) before selecting an automatic transcription route. Do not require the desktop application to execute this workflow.
